@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+* {
+    margin:  auto;
+    padding: 0;
+	font-family: 'Gowun Dodum', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:#333;
+}
+
+ul li{
+    list-style:none;
+
+}
+
+.fl{
+    float:left;
+}
+.tc {
+    text-align: center;
+}
+
+/* 게시판 목록 */
+#board_area{
+	margin: 50px auto;
+    width: 900px;
+    position:relative;
+}
+h1 {
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 50px;
+	font-weight: lighter;
+}
+
+.list-table {
+	margin-top: 40px;
+}
+.list-table thead th{
+	height:40px;
+	border-top:2px solid #66bb6a;
+	border-bottom:1px solid #CCC;
+	font-weight: bold;
+	font-size: 17px;
+}
+.list-table tbody td{
+	text-align:center;
+	padding:10px 0;
+	border-bottom:1px solid #CCC; height:20px;
+	font-size: 14px 
+}
+#write_btn {
+	position: absolute;
+	margin-top:20px;
+	right: 0;
+
+}
+.new_btn{
+	padding: 10px 20px;
+	border-radius: 15px;
+    font-family: 'Gowun Dodum', sans-serif;
+    box-shadow: 0 7px 10px rgba(172, 172, 172, 0.2);
+    text-decoration: none;
+	background-color: #fff;
+    font-weight: 600;
+    transition: 0.25s;
+	border: 3px solid #66bb6a;
+    color: #646464;
+}
+
+.new_btn:hover {
+    background-color: #66bb6a;
+    color: #d7fff1;
+}
+/* 게시판 글쓰기 */
+
+#board_write {
+	width:900px;
+	position:relative;
+	margin:0 auto;
+	font-family: 'Gowun Dodum', sans-serif;
+}
+#board_write h1 a{
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+#write_area {
+	margin-top:30px;
+	font-size:14px;}
+#in_name {
+	margin-top:30px;
+}
+#in_name textarea {
+	font-weight:bold;
+	font-size:20px;
+	color:#333;
+	width: 900px;
+	border:none;
+	resize: none;
+}
+#in_title {
+	margin-top:30px;
+}
+#in_title textarea {
+	font-weight:bold;
+	font-size:20px;
+	color:#333;
+	width: 900px;
+	border:none;
+	resize: none;
+}
+.wi_line {
+	border:solid 1px lightgray;
+	margin-top:10px;
+}
+#in_content {
+	margin-top:10px;
+}
+#in_content textarea {
+	font:22px;
+	color:#333;
+	width: 900px;
+	height: 400px;
+	resize: none;
+}
+#in_pw input {
+	font:14px;
+	margin-top:10px;
+}
+.bt_se {
+	
+	text-align:center;
+}
+.bt_se button {
+	width:100px;
+	height:43px;
+	font-family: 'Gowun Dodum', sans-serif;
+}
+/* 게시판 read */
+#board_read {
+	font-family: 'Gowun Dodum', sans-serif;
+	width:900px;
+	position: relative;
+	word-break:break-all;
+}
+
+#user_info {
+	font-size:14px;
+}
+#user_info ul li {
+	float:left;
+	margin-left:10px;
+}
+#bo_line {
+	width:880px;
+	height:2px;
+	background: #66bb6a;
+	margin-top:20px;
+}
+#bo_content {
+	margin-top:0px;
+}
+#bo_ser {
+	font-size:14px;
+	color:#333;
+	position: absolute;
+	right: 0;
+}
+#bo_ser > ul > li {
+	float:left;
+	margin-left:10px;
+}
+/* 댓글 */
+.reply_view {
+	font-family: 'Gowun Dodum', sans-serif;
+	width:900px;
+	margin-top:100px; 
+	word-break:break-all;
+}
+.dap_lo {
+	font-size: 14px;
+	padding:10px 0 15px 0;
+	border-bottom: solid 1px gray;
+}
+.dap_to {
+	margin-top:5px;
+}
+.rep_me {
+	font-size:12px;
+}
+.rep_me ul li {
+	float:left;
+	width: 30px;
+}
+.dat_delete {
+	display: none;
+}	
+.dat_edit {
+	display:none;
+}
+.dap_sm {
+	position: absolute;
+	top: 10px;
+}
+.dap_edit_t{
+	width:520px;
+	height:70px;
+	position: absolute;
+	top: 40px;
+}
+.re_mo_bt {
+	position: absolute;
+	top:40px;
+	right: 5px;
+	width: 90px;
+	height: 72px;
+}
+#re_content {
+	width:700px;
+	height: 56px; 
+}
+.dap_ins {
+	margin-top:50px;
+}
+.re_bt {
+	position: absolute;
+	width:100px;
+	height:56px;
+	font-size:16px;
+	margin-left: 10px; 
+}
+#foot_box {
+	height: 500px; 
+}
+
+.re_ct {font-weight: bold; color: #ff8f00;}
+
+#page_num {
+	font-size: 14px;
+	margin-left: 260px;
+	margin-top:30px; 
+}
+#page_num ul li {
+	float: left;
+	margin-left: 10px; 
+	text-align: center;
+}
+.fo_re {
+	font-weight: bold;
+	color:#ff8f00;
+}
